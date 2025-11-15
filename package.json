@@ -1,6 +1,16 @@
 {
-  "name": "lub-api-client",
-  "module": "index.ts",
+  "name": "@lub/api-client",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "TypeScript client for the Relay API",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build",
+    "typecheck": "tsc --noEmit"
+  },
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
