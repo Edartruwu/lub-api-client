@@ -3,7 +3,8 @@
  * @module client
  */
 
-import { HTTPClient, HTTPClientConfig } from "./client/http-client";
+import { HTTPClient } from "./client/http-client";
+import type { HTTPClientConfig } from "./client/http-client";
 import { WorkflowService } from "./services/workflow.service";
 import { ToolService } from "./services/tool.service";
 import { CredentialService } from "./services/credential.service";
@@ -11,7 +12,7 @@ import { ChannelService } from "./services/channel.service";
 import { APIKeyService } from "./services/api-key.service";
 import { InvitationService } from "./services/invitation.service";
 import { WebhookService } from "./services/webhook.service";
-import { TenantID } from "./types";
+import type { TenantID } from "./types";
 
 /**
  * Relay API client configuration

@@ -3,8 +3,8 @@
  * @module types/webhook
  */
 
-import { DateTime, TenantID } from "./common";
-import { WorkflowID, ExecutionMode } from "./workflow";
+import type { DateTime, TenantID } from "./common";
+import type { WorkflowID, ExecutionMode } from "./workflow";
 
 /**
  * Unique identifier for a webhook

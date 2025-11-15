@@ -3,7 +3,7 @@
  * @module types/workflow
  */
 
-import { DateTime, TenantID, PaginatedResponse } from "./common";
+import type { DateTime, TenantID, PaginatedResponse } from "./common";
 
 /**
  * Unique identifier for a workflow

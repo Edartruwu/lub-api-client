@@ -3,7 +3,7 @@
  * @module types/auth
  */
 
-import { OAuthProvider, User, Tenant } from "./common";
+import type { OAuthProvider, User, Tenant } from "./common";
 
 /**
  * OAuth login request

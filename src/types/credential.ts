@@ -3,7 +3,7 @@
  * @module types/credential
  */
 
-import { DateTime, TenantID, UserID, PaginatedResponse } from "./common";
+import type { DateTime, TenantID, UserID, PaginatedResponse } from "./common";
 
 /**
  * Unique identifier for a credential

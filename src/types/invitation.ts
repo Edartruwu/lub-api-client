@@ -3,7 +3,7 @@
  * @module types/invitation
  */
 
-import { DateTime, TenantID, UserID, PaginatedResponse } from "./common";
+import type { DateTime, TenantID, UserID, PaginatedResponse } from "./common";
 
 /**
  * Unique identifier for an invitation
