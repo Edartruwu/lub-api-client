@@ -3,8 +3,8 @@
  * @module services/base
  */
 
-import { HTTPClient } from "../client/http-client";
-import { TenantID } from "../types";
+import type { HTTPClient } from "../client/http-client";
+import type { TenantID } from "../types";
 
 /**
  * Base service configuration

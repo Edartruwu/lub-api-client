@@ -3,7 +3,7 @@
  * @module client/errors
  */
 
-import { APIError } from "../types";
+import type { APIError } from "../types";
 
 /**
  * Base error class for all Relay API errors
@@ -37,8 +37,8 @@ export class RelayError extends Error {
     this.details = details;
 
     // Maintains proper stack trace for where our error was thrown (only available on V8)
-    if (Error.captureStackTrace) {
-      Error.captureStackTrace(this, RelayError);
+    if (typeof (Error as any).captureStackTrace === "function") {
+      (Error as any).captureStackTrace(this, RelayError);
     }
   }
 

@@ -3,13 +3,13 @@
  * @module types/api-key
  */
 
-import {
+import type {
   DateTime,
   TenantID,
   UserID,
-  Environment,
   PaginatedResponse,
 } from "./common";
+import { Environment } from "./common";
 
 /**
  * Unique identifier for an API key
