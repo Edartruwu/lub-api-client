@@ -1,7 +1,7 @@
 {
-  "name": "@lub/api-client",
+  "name": "@lub/client",
   "version": "1.0.0",
-  "description": "TypeScript client for the Relay API",
+  "description": "TypeScript client for the Lub API",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -36,10 +36,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
-  },
-  "engines": {
-    "bun": ">=1.0.0"
+    "url": "https://github.com/Edartruwu/lub-api-client"
   },
   "devDependencies": {
     "@types/bun": "latest"
